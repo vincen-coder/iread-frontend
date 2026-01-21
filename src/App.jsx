@@ -12,7 +12,7 @@ import { CloudArrowUpIcon, DocumentTextIcon, PlayCircleIcon, ArrowPathIcon } fro
 
 // ⚠️ STEP 2: Use Localhost first to test. 
 // Once this works, you can change it back to your Render link.
-const BACKEND_URL = "http://127.0.0.1:3000/convert";
+const BACKEND_URL = "https://iread-backend-mccv.onrender.com/convert";
 
 function App() {
   const [file, setFile] = useState(null);
